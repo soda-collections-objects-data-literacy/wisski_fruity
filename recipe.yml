@@ -3,7 +3,7 @@ description: 'WissKI environment with 2D data model.'
 type: 'Site'
 
 recipes:
-  - wisski_grain_sweet
+  - wisski_sweet
 
 install:
   - image_effects
