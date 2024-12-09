@@ -15,7 +15,6 @@
         "drupal/image_effects": "^4.0@beta",
         "drupal/imagemagick": "^4.0.1",
         "drupal/viewfield": "^3.0@beta",
-        "soda-collection-objects-data-literacy/wisski_sweet": "dev-main",
-        "soda-collection-objects-data-literacy/wisski_fruity": "dev-main"
+        "soda-collection-objects-data-literacy/wisski_sweet": "dev-main"
     }
 }
