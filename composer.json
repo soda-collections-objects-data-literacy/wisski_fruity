@@ -1,0 +1,21 @@
+{
+    "name": "soda-collection-objects-data-literacy/wisski_fruity",
+    "description": "Installs WissKI 2D data model.",
+    "keywords": ["drupal recipe", "wisski"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Robert Nasarek",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/colorbox": "^2.1",
+        "drupal/image_effects": "^4.0@beta",
+        "drupal/imagemagick": "^4.0.1",
+        "drupal/viewfield": "^3.0@beta",
+        "soda-collection-objects-data-literacy/wisski_sweet": "dev-main",
+        "soda-collection-objects-data-literacy/wisski_fruity": "dev-main"
+    }
+}

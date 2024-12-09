@@ -1,0 +1,21 @@
+name: 'WissKI Fruity'
+description: 'WissKI environment with 2D data model.'
+type: 'Site'
+
+recipes:
+  - wisski_grain_sweet
+
+install:
+  - image_effects
+  - imagemagick
+  - colorbox
+  - wisski_iip_image
+  - wisski_mirador
+
+config:
+  import:
+    image_effects: "*"
+    imagemagick: "*"
+    colorbox: "*"
+    wisski_iip_image: "*"
+    wisski_mirador: "*"
