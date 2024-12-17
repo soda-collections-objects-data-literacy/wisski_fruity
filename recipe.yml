@@ -22,6 +22,7 @@ config:
     wisski: *
     wisski_iip_image: *
     wisski_mirador: *
+  strict: false
   action:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       uuid: ee3f41f3-bcd2-43bf-b157-d06550dea220
