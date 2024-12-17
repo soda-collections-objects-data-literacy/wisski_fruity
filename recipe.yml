@@ -15,13 +15,13 @@ install:
 
 config:
   import:
-    image_effects: *
-    imagemagick: *
-    colorbox: *
-    viewfield: *
-    wisski: *
-    wisski_iip_image: *
-    wisski_mirador: *
+    image_effects: '*'
+    imagemagick: '*'
+    colorbox: '*'
+    viewfield: '*'
+    wisski: '*'
+    wisski_iip_image: '*'
+    wisski_mirador: '*'
   strict: false
   action:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
