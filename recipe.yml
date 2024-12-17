@@ -19,7 +19,6 @@ config:
     imagemagick: '*'
     colorbox: '*'
     viewfield: '*'
-    wisski: '*'
     wisski_iip_image: '*'
     wisski_mirador: '*'
   actions:
