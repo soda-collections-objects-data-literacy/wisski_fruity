@@ -1,0 +1,19 @@
+uuid: 58edda31-5744-42f9-959b-d8a3605c5182
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f255db37e8af9457af5fb2b29783bd2d
+    - wisski_core.wisski_bundle.b20a00a4fdeefd7f1fc409e2c6a9bfd2
+id: wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f255db37e8af9457af5fb2b29783bd2d
+field_name: f255db37e8af9457af5fb2b29783bd2d
+entity_type: wisski_individual
+bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+label: 'SVG Layer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,273 @@
+uuid: dd944fa9-dd51-4c52-97bd-f2da3ebb86be
+langcode: en
+status: true
+dependencies:
+  config:
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+  module:
+    - wisski_core
+    - wisski_mirador
+id: mirador_viewer
+label: 'Mirador Viewer'
+module: views
+description: 'View for the Mirador Viewer.'
+tag: ''
+base_table: wisski_individual
+base_field: eid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Mirador Viewer'
+      fields:
+        eid:
+          id: eid
+          table: wisski_individual
+          field: eid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: wisski_individual
+          entity_field: null
+          plugin_id: standard
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+      pager:
+        type: none
+        options:
+          offset: 0
+          items_per_page: 0
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: false
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      access:
+        type: none
+        options: {  }
+      cache:
+        type: none
+        options: {  }
+      empty: {  }
+      sorts: {  }
+      arguments:
+        eid:
+          id: eid
+          table: wisski_individual
+          field: eid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: wisski_individual
+          plugin_id: numeric
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: raw
+          default_argument_options:
+            index: 2
+            use_alias: false
+          summary_options:
+            base_path: ''
+            count: true
+            override: false
+            items_per_page: 25
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          break_phrase: false
+          not: false
+      filters:
+        bundle:
+          id: bundle
+          table: wisski_individual
+          field: bundle
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: wisski_individual
+          plugin_id: wisski_bundle
+          operator: IN
+          value:
+            b3f2003dbc2f46de7270ab8ccc06d193: b3f2003dbc2f46de7270ab8ccc06d193
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+      style:
+        type: wisskimirador
+        options:
+          grouping: {  }
+          enable_annotations: 1
+          entity_type_for_annotation: wisski_individual
+          bundle_for_annotation: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+          field_for_annotation_uuid: fdce0b686453bfbf5b7ccf1c8c372ed1
+          field_for_annotation_entity: f8606b00c8623c8fc2999dcdd13eb47e
+          field_for_annotation_source_reference: feeb1bc5afcb469f6f60bf0253643742
+          field_for_annotation_text: f4e282856ac37ae122d1535490a5efc0
+          field_for_annotation_svg: f255db37e8af9457af5fb2b29783bd2d
+          field_for_annotation_fragment_selector: f762d8e70d16d9618ed9a091cfc583f7
+          field_for_annotation_json: f5b50d43c06bbde91f7a5b47e1f166c8
+          field_for_image_ids: ''
+          field_for_label: ''
+          field_for_uri: ''
+          window_settings: "{\r\n            \"allowClose\": false,\r\n            \"allowFullscreen\": true,\r\n            \"allowMaximize\": false,\r\n            \"allowTopMenuButton\": true,\r\n            \"allowWindowSideBar\": true,\r\n            \"sideBarPanel\": \"info\",\r\n            \"defaultSideBarPanel\": \"attribution\",\r\n            \"sideBarOpenByDefault\": false,\r\n            \"defaultView\": \"single\",\r\n            \"forceDrawAnnotations\": true,\r\n            \"hideWindowTitle\": true,\r\n            \"highlightAllAnnotations\": false,\r\n            \"imageToolsEnabled\": true,\r\n            \"showLocalePicker\": true,\r\n            \"sideBarOpen\": true,\r\n            \"switchCanvasOnSearch\": true,\r\n            \"panels\": {\r\n              \"info\": true,\r\n              \"attribution\": true,\r\n              \"canvas\": true,\r\n              \"annotations\": true,\r\n              \"search\": true,\r\n              \"layers\": true\r\n            }\r\n      }"
+      row:
+        type: fields
+      query:
+        type: views_query
+      relationships: {  }
+      header: {  }
+      footer: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url
+      tags: {  }
+  mirador_viewer_block:
+    id: mirador_viewer_block
+    display_title: Block
+    display_plugin: block
+    position: 1
+    display_options:
+      filters:
+        bundle:
+          id: bundle
+          table: wisski_individual
+          field: bundle
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: wisski_individual
+          plugin_id: wisski_bundle
+          operator: IN
+          value:
+            b3f2003dbc2f46de7270ab8ccc06d193: b3f2003dbc2f46de7270ab8ccc06d193
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      defaults:
+        filters: false
+        filter_groups: false
+      display_extenders: {  }
+      block_hide_empty: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url
+      tags: {  }

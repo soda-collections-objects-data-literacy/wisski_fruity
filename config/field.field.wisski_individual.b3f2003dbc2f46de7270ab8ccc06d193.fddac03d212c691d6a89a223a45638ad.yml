@@ -1,0 +1,29 @@
+uuid: 9c4217b0-2e87-479b-87bc-68bc545d63a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.fddac03d212c691d6a89a223a45638ad
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+    - wisski_core.wisski_bundle.bb109f84adcbd455b72df104580ba04e
+id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.fddac03d212c691d6a89a223a45638ad
+field_name: fddac03d212c691d6a89a223a45638ad
+entity_type: wisski_individual
+bundle: b3f2003dbc2f46de7270ab8ccc06d193
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:wisski_individual'
+  handler_settings:
+    target_bundles:
+      bb109f84adcbd455b72df104580ba04e: bb109f84adcbd455b72df104580ba04e
+    sort:
+      field: label
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

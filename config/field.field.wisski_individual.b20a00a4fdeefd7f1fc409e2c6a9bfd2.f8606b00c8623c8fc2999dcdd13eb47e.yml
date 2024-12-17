@@ -1,0 +1,19 @@
+uuid: a75ba292-a424-41c4-b089-8acdfee7c99a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f8606b00c8623c8fc2999dcdd13eb47e
+    - wisski_core.wisski_bundle.b20a00a4fdeefd7f1fc409e2c6a9bfd2
+id: wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f8606b00c8623c8fc2999dcdd13eb47e
+field_name: f8606b00c8623c8fc2999dcdd13eb47e
+entity_type: wisski_individual
+bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+label: 'URL of the annotated image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

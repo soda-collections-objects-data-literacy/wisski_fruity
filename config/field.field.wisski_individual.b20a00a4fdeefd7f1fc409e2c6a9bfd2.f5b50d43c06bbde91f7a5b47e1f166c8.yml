@@ -1,0 +1,19 @@
+uuid: 376f1c9b-917b-48b0-98e2-fc660876f04e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.f5b50d43c06bbde91f7a5b47e1f166c8
+    - wisski_core.wisski_bundle.b20a00a4fdeefd7f1fc409e2c6a9bfd2
+id: wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f5b50d43c06bbde91f7a5b47e1f166c8
+field_name: f5b50d43c06bbde91f7a5b47e1f166c8
+entity_type: wisski_individual
+bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+label: 'JSON File'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

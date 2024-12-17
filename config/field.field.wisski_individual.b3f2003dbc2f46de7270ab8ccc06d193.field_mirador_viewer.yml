@@ -1,0 +1,74 @@
+uuid: 26f68780-d865-4033-9e83-e2fa72adf614
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.wisski_individual.field_mirador_viewer
+    - views.view.mirador_viewer
+    - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
+  module:
+    - viewfield
+id: wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.field_mirador_viewer
+field_name: field_mirador_viewer
+entity_type: wisski_individual
+bundle: b3f2003dbc2f46de7270ab8ccc06d193
+label: 'Mirador Viewer'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: dd944fa9-dd51-4c52-97bd-f2da3ebb86be
+    display_id: mirador_viewer_block
+    arguments: ''
+    items_to_display: ''
+    token_help: ''
+default_value_callback: ''
+settings:
+  force_default: true
+  allowed_views:
+    mirador_viewer: mirador_viewer
+    b20a00a4fdeefd7f1fc409e2c6a9bfd2: '0'
+    b2e7da20fa398c144cc890481942d3e1: '0'
+    b3f3ff1e8cd7a488fd66fbd46c5f1953: '0'
+    comment: '0'
+    content: '0'
+    block_content: '0'
+    b7a6de10bbb83db6a13c0043c1507d23: '0'
+    bd9d1f835a9f180a4f112947c3177a05: '0'
+    bd87fdabf5cc195118992c55619fc69e: '0'
+    b73258adf62f35bd1be3fa2863fab558: '0'
+    b69d1149474a37ad95f618ff2315662c: '0'
+    b393e1c3db202fbb7a8b54e65eb38227: '0'
+    files: '0'
+    frontpage: '0'
+    b3abeaeb21037a930e9d1ef438080dde: '0'
+    bf305a96dd26a05ff868c1963c41745e: '0'
+    bb109f84adcbd455b72df104580ba04e: '0'
+    b45978f2b073ff3c73b3c7220ebb3b89: '0'
+    b3f2003dbc2f46de7270ab8ccc06d193: '0'
+    user_admin_people: '0'
+    b7d3d34546ab6c601bb930140e9b7615: '0'
+    ba579dbd044f00ad5d2a7553a9918146: '0'
+    be89c84bf729f8e135e2e7b5936f1a44: '0'
+    comments_recent: '0'
+    content_recent: '0'
+    b50697c33151cc0918c95f83293018a7: '0'
+    b5d104193f947ce881d74659519d7044: '0'
+    taxonomy_term: '0'
+    bca4b1b906cb3a4e38ab7a0cab339a49: '0'
+    b3a7ecdd8f162573ca60258dd7a8cff6: '0'
+    b3aa57618dba639d9bed090a51611abc: '0'
+    watchdog: '0'
+    who_s_new: '0'
+    who_s_online: '0'
+  allowed_display_types:
+    block: block
+    default: '0'
+    feed: '0'
+    page: '0'
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: viewfield

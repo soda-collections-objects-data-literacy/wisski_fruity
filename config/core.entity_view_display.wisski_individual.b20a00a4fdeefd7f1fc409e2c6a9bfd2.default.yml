@@ -1,0 +1,96 @@
+uuid: 139e0212-965c-4e7d-a802-381c03f640d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f255db37e8af9457af5fb2b29783bd2d
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f4e282856ac37ae122d1535490a5efc0
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f5b50d43c06bbde91f7a5b47e1f166c8
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f762d8e70d16d9618ed9a091cfc583f7
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f7cbc14e804b66d75b559026a98bd705
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f8606b00c8623c8fc2999dcdd13eb47e
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.facd95034a6e89aa85c1933084fa7340
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.fdce0b686453bfbf5b7ccf1c8c372ed1
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.feeb1bc5afcb469f6f60bf0253643742
+    - wisski_core.wisski_bundle.b20a00a4fdeefd7f1fc409e2c6a9bfd2
+id: wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.default
+targetEntityType: wisski_individual
+bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+mode: default
+content:
+  f255db37e8af9457af5fb2b29783bd2d:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  f4e282856ac37ae122d1535490a5efc0:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  f5b50d43c06bbde91f7a5b47e1f166c8:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  f762d8e70d16d9618ed9a091cfc583f7:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  f7cbc14e804b66d75b559026a98bd705:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  f8606b00c8623c8fc2999dcdd13eb47e:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  facd95034a6e89aa85c1933084fa7340:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  fdce0b686453bfbf5b7ccf1c8c372ed1:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  feeb1bc5afcb469f6f60bf0253643742:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  bundle: true
+  created: true
+  label: true
+  name: true
+  preview_image: true
+  uid: true
+  wisski_uri: true

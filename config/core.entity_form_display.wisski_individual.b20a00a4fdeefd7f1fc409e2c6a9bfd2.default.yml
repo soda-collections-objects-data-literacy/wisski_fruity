@@ -1,0 +1,97 @@
+uuid: c655536c-de18-4de8-a7a7-6f523ce38f3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f255db37e8af9457af5fb2b29783bd2d
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f4e282856ac37ae122d1535490a5efc0
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f5b50d43c06bbde91f7a5b47e1f166c8
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f762d8e70d16d9618ed9a091cfc583f7
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f7cbc14e804b66d75b559026a98bd705
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.f8606b00c8623c8fc2999dcdd13eb47e
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.facd95034a6e89aa85c1933084fa7340
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.fdce0b686453bfbf5b7ccf1c8c372ed1
+    - field.field.wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.feeb1bc5afcb469f6f60bf0253643742
+    - wisski_core.wisski_bundle.b20a00a4fdeefd7f1fc409e2c6a9bfd2
+id: wisski_individual.b20a00a4fdeefd7f1fc409e2c6a9bfd2.default
+targetEntityType: wisski_individual
+bundle: b20a00a4fdeefd7f1fc409e2c6a9bfd2
+mode: default
+content:
+  f255db37e8af9457af5fb2b29783bd2d:
+    type: string_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  f4e282856ac37ae122d1535490a5efc0:
+    type: string_textarea
+    weight: 9
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  f5b50d43c06bbde91f7a5b47e1f166c8:
+    type: string_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  f762d8e70d16d9618ed9a091cfc583f7:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  f7cbc14e804b66d75b559026a98bd705:
+    type: string_textarea
+    weight: 10
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  f8606b00c8623c8fc2999dcdd13eb47e:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  facd95034a6e89aa85c1933084fa7340:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  fdce0b686453bfbf5b7ccf1c8c372ed1:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  feeb1bc5afcb469f6f60bf0253643742:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  label: true
+  name: true
+  uid: true
