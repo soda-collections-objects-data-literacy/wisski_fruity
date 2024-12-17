@@ -14,11 +14,11 @@ install:
   - wisski_mirador
 
 config:
-  strict: false
   import:
     image_effects: "*"
     imagemagick: "*"
     colorbox: "*"
     viewfield: "*"
+    wisski: "*"
     wisski_iip_image: "*"
     wisski_mirador: "*"
