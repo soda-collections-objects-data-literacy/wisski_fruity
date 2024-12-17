@@ -24,14 +24,15 @@ config:
     wisski_mirador: '*'
   actions:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
-      uuid: ee3f41f3-bcd2-43bf-b157-d06550dea220
-      langcode: en
-      status: true
-      dependencies:
-        config:
-          - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f0f948c4575671ee7e4a1d0552faf887
-          - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f1d31b01925bc6bfd5bd447496fa3093
-          - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f2402bfab139280c7cc8611c3b27e137
+      setComponent:
+        uuid: ee3f41f3-bcd2-43bf-b157-d06550dea220
+        langcode: en
+        status: true
+        dependencies:
+          config:
+            - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f0f948c4575671ee7e4a1d0552faf887
+            - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f1d31b01925bc6bfd5bd447496fa3093
+            - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f2402bfab139280c7cc8611c3b27e137
           - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f2af14bc7fd10e32b7af96180e00246c
           - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f375e8850db4bb629823575bcb711376
           - field.field.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.f6bcc7480ca6cf11bd0aaeb6e604f906
