@@ -9,6 +9,7 @@ install:
   - image_effects
   - imagemagick
   - colorbox
+  - viewfield
   - wisski_iip_image
   - wisski_mirador
 
@@ -17,5 +18,6 @@ config:
     image_effects: "*"
     imagemagick: "*"
     colorbox: "*"
+    viewfield: "*"
     wisski_iip_image: "*"
     wisski_mirador: "*"
