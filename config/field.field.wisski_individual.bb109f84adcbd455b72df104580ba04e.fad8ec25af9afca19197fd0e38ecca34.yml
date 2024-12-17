@@ -1,4 +1,3 @@
-uuid: f4842485-24aa-4f53-8767-83881e8d92b4
 langcode: en
 status: true
 dependencies:
@@ -30,7 +29,6 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
     alt: ''
     title: ''
     width: null
