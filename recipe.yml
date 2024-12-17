@@ -19,7 +19,6 @@ config:
     imagemagick: '*'
     colorbox: '*'
     viewfield: '*'
-  strict: false
   actions:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       simple_config_update:
