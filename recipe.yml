@@ -422,5 +422,7 @@ config:
           preview_image: true
           uid: true
           wisski_uri: true
-
+    system.image:
+      simple_config_update:
+        toolkit: imagemagick
 
