@@ -24,7 +24,7 @@ config:
     wisski_mirador: '*'
   actions:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
-      setComponent:
+      simple_config_update:
         langcode: en
         status: true
         dependencies:
