@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.storage.wisski_individual.field_mirador_viewer
-    - views.view.mirador_viewer
     - wisski_core.wisski_bundle.b3f2003dbc2f46de7270ab8ccc06d193
   module:
     - viewfield
@@ -17,7 +16,7 @@ required: false
 translatable: false
 default_value:
   -
-    target_uuid: dd944fa9-dd51-4c52-97bd-f2da3ebb86be
+    target_id: mirador_viewer
     display_id: mirador_viewer_block
     arguments: ''
     items_to_display: ''
