@@ -43,18 +43,6 @@ config:
               revision: false
               removed_reference: optional
             third_party_settings: {  }
-        -
-          name: f2402bfab139280c7cc8611c3b27e137
-          options:
-            region: hidden
-        -
-          name: f84a521dce5ba9995b2fd94bb2a643e6
-          options:
-            region: hidden
-        -
-          name: field_mirador_viewer
-          options:
-            region: hidden
     core.entity_view_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       setComponents:
         -
@@ -69,14 +57,6 @@ config:
             third_party_settings: {  }
             weight: 0
             region: content
-        -
-          name: f2402bfab139280c7cc8611c3b27e137
-          options:
-            region: hidden
-        -
-          name: fddac03d212c691d6a89a223a45638ad
-          options:
-            region: hidden
     system.image:
       simple_config_update:
         toolkit: imagemagick
