@@ -14,7 +14,7 @@ install:
   - wisski_mirador
 
 config:
-  #strict: false # this is not implemented in D11 right now
+  #strict: false # this is not implemented in D11 right now: https://www.drupal.org/project/drupal/issues/3478332
   import:
     image_effects: '*'
     imagemagick: '*'
