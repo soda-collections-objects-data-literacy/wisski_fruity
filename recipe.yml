@@ -14,7 +14,6 @@ install:
   - wisski_mirador
 
 config:
-  strict: false
   import:
     image_effects: '*'
     imagemagick: '*'
