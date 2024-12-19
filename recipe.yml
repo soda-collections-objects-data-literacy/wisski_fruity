@@ -14,7 +14,7 @@ install:
   - wisski_mirador
 
 config:
-  strict: false # https://www.drupal.org/project/drupal/issues/3478332
+  #strict: false # https://www.drupal.org/project/drupal/issues/3478332
   import:
     image_effects: '*'
     imagemagick: '*'
