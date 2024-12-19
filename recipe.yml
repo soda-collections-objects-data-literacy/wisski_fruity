@@ -10,6 +10,8 @@ install:
   - imagemagick
   - colorbox
   - viewfield
+  - wisski_iip_image
+  - wisski_mirador
 
 config:
   strict: false
