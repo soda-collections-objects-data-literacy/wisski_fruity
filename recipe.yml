@@ -61,9 +61,9 @@ config:
             region: hidden
     core.entity_view_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       setComponents:
-        name: field_mirador_viewer
-        options:
-          -
+        -
+          name: field_mirador_viewer
+          options:
             type: viewfield_default
             label: above
             settings:
@@ -77,6 +77,7 @@ config:
           name: f2402bfab139280c7cc8611c3b27e137
           options:
             region: hidden
+        -
           name: fddac03d212c691d6a89a223a45638ad
           options:
             region: hidden
