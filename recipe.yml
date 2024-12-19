@@ -10,8 +10,6 @@ install:
   - imagemagick
   - colorbox
   - viewfield
-  - wisski_iip_image
-  - wisski_mirador
 
 config:
   import:
@@ -28,7 +26,7 @@ config:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       setComponents:
         -
-          name: fddac03d212c691d6a89a223a45638ad:
+          name: fddac03d212c691d6a89a223a45638ad
           options:
             type: inline_entity_form_complex
             weight: 0
