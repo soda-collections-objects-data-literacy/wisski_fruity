@@ -21,6 +21,9 @@ config:
     viewfield: '*'
     wisski_iip_image: '*'
     wisski_mirador: '*'
+
+  strict: false
+
   actions:
     core.entity_form_display.wisski_individual.b3f2003dbc2f46de7270ab8ccc06d193.default:
       simple_config_update:
