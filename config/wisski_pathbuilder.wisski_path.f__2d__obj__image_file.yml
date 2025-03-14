@@ -6,9 +6,9 @@ name: 'Image File'
 path_array:
   - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
   - 'http://erlangen-crm.org/current/P138i_has_representation'
-  - 'http://wiss-ki.eu/ontology/Image'
+  - 'http://wiss-ki.eu/ontology/current/Image'
   - 'http://erlangen-crm.org/current/P1_is_identified_by'
-  - 'http://wiss-ki.eu/ontology/URL'
+  - 'http://wiss-ki.eu/ontology/current/URL'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

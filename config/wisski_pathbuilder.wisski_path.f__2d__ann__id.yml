@@ -4,7 +4,7 @@ dependencies: {  }
 id: f__2d__ann__id
 name: ID
 path_array:
-  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://wiss-ki.eu/ontology/current/Annotation'
   - 'http://erlangen-crm.org/current/P48_has_preferred_identifier'
   - 'http://erlangen-crm.org/current/E42_Identifier'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'

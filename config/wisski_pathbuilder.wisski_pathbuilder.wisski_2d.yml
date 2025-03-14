@@ -105,9 +105,9 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: image
     relativepath:
-      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://wiss-ki.eu/ontology/current/Image'
       - 'http://erlangen-crm.org/current/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/URL'
+      - 'http://wiss-ki.eu/ontology/current/URL'
   f__2d__image__right:
     id: f__2d__image__right
     weight: '1'
@@ -121,7 +121,7 @@ pbpaths:
     cardinality: '-1'
     field_type_informative: entity_reference
     relativepath:
-      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://wiss-ki.eu/ontology/current/Image'
       - 'http://erlangen-crm.org/current/P104_is_subject_to'
       - 'http://erlangen-crm.org/current/E30_Right'
   f__2d__obj__image:
@@ -139,7 +139,7 @@ pbpaths:
     relativepath:
       - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
       - 'http://erlangen-crm.org/current/P138i_has_representation'
-      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://wiss-ki.eu/ontology/current/Image'
   f__2d__ann__id:
     id: f__2d__ann__id
     weight: '4'
@@ -263,7 +263,7 @@ pbpaths:
     relativepath:
       - 'http://erlangen-crm.org/current/E22_Human-Made_Object'
       - 'http://erlangen-crm.org/current/P138i_has_representation'
-      - 'http://wiss-ki.eu/ontology/Image'
+      - 'http://wiss-ki.eu/ontology/current/Image'
       - 'http://erlangen-crm.org/current/P1_is_identified_by'
-      - 'http://wiss-ki.eu/ontology/URL'
+      - 'http://wiss-ki.eu/ontology/current/URL'
 with_solr: null

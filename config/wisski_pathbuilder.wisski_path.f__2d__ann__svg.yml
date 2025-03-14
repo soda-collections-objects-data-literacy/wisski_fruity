@@ -4,9 +4,9 @@ dependencies: {  }
 id: f__2d__ann__svg
 name: 'SVG Layer'
 path_array:
-  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://wiss-ki.eu/ontology/current/Annotation'
   - 'http://erlangen-crm.org/current/P141_assigned'
-  - 'http://wiss-ki.eu/ontology/SVG'
+  - 'http://wiss-ki.eu/ontology/current/SVG'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

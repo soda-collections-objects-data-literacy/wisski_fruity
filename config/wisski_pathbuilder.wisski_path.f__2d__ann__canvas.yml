@@ -4,9 +4,9 @@ dependencies: {  }
 id: f__2d__ann__canvas
 name: Canvas
 path_array:
-  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://wiss-ki.eu/ontology/current/Annotation'
   - 'http://erlangen-crm.org/current/P16_used_specific_object'
-  - 'http://wiss-ki.eu/ontology/Canvas'
+  - 'http://wiss-ki.eu/ontology/current/Canvas'
 datatype_property: 'http://erlangen-crm.org/current/P3_has_note'
 short_name: ''
 disamb: 0

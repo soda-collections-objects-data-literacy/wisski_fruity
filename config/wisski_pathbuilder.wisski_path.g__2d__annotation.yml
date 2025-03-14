@@ -5,7 +5,7 @@ dependencies: {  }
 id: g__2d__annotation
 name: Annotation
 path_array:
-  - 'http://wiss-ki.eu/ontology/Annotation'
+  - 'http://wiss-ki.eu/ontology/current/Annotation'
 datatype_property: empty
 short_name: ''
 disamb: 0

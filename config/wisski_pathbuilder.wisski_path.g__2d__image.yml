@@ -5,7 +5,7 @@ dependencies: {  }
 id: g__2d__image
 name: Image
 path_array:
-  - 'http://wiss-ki.eu/ontology/Image'
+  - 'http://wiss-ki.eu/ontology/current/Image'
 datatype_property: empty
 short_name: ''
 disamb: 0
